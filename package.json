@@ -1,0 +1,20 @@
+{
+  "name": "katana-swap-aggregator",
+  "version": "0.1.0",
+  "description": "Swap aggregator for Katana L2 - routes across Sushi V2/V3 for best execution",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "quote": "tsx src/index.ts quote",
+    "pools": "tsx src/index.ts pools",
+    "test": "tsx src/test.ts"
+  },
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
